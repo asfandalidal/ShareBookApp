@@ -139,38 +139,6 @@ In today's world, many people have books sitting on their shelves that they've a
 - Smooth animations and transitions
 - Intuitive navigation
 
----
-
-## 📸 Screenshots
-
-### Home Screen
-![Home Screen](screenshots/home.png)
-*Featured books, categories, and recent additions*
-
-### Search Screen
-![Search Screen](screenshots/search.png)
-*Advanced search with genre filtering*
-
-### Add Book Screen
-![Add Book](screenshots/add_book.png)
-*Easy book addition with image upload*
-
-### Book Details
-![Book Details](screenshots/book_detail.png)
-*Comprehensive book information and contact options*
-
-### My Books
-![My Books](screenshots/my_books.png)
-*Personal book collection management*
-
-### Profile
-![Profile](screenshots/profile.png)
-*User profile and settings*
-
-> **Note**: Add your actual screenshots to the `/screenshots` folder
-
----
-
 ## 🛠 Technical Stack
 
 ### Language & Framework
