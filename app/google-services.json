@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280951405553",
+    "project_id": "bookshare-72ba6",
+    "storage_bucket": "bookshare-72ba6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280951405553:android:efe4617285687c2995e250",
+        "android_client_info": {
+          "package_name": "myauthapp.azeemi.sharebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280951405553-eeu0he69e8rfg5ljq54tjs5k6ibpfk14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdb4A_m44r6I8zEQuRdNTpdO4jNFO9teU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280951405553-eeu0he69e8rfg5ljq54tjs5k6ibpfk14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

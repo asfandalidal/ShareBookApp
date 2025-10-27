@@ -1,0 +1,31 @@
+package myauthapp.azeemi.sharebook.data.model
+
+enum class BookCategory(val displayName: String) {
+    FICTION("Fiction"),
+    NON_FICTION("Non-Fiction"),
+    SCIENCE("Science"),
+    TECHNOLOGY("Technology"),
+    HISTORY("History"),
+    BIOGRAPHY("Biography"),
+    MYSTERY("Mystery"),
+    ROMANCE("Romance"),
+    FANTASY("Fantasy"),
+    HORROR("Horror"),
+    THRILLER("Thriller"),
+    COMEDY("Comedy"),
+    DRAMA("Drama"),
+    POETRY("Poetry"),
+    PHILOSOPHY("Philosophy"),
+    RELIGION("Religion"),
+    SELF_HELP("Self-Help"),
+    BUSINESS("Business"),
+    EDUCATION("Education"),
+    CHILDREN("Children"),
+    COOKING("Cooking"),
+    TRAVEL("Travel"),
+    ART("Art"),
+    MUSIC("Music"),
+    SPORTS("Sports"),
+    HEALTH("Health"),
+    OTHER("Other")
+}

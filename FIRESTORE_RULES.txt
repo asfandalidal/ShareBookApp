@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Books collection rules
+    match /books/{bookId} {
+      // Allow anyone to read books
+      allow read: if true;
+      
+      // Allow authenticated users to create books
+      allow create: if request.auth != null;
+      
+      // Allow book owner to update their books
+      allow update: if request.auth != null && 
+                     resource.data.ownerUid == request.auth.uid;
+      
+      // Allow book owner to delete their books
+      allow delete: if request.auth != null && 
+                     resource.data.ownerUid == request.auth.uid;
+    }
+    
+    // Users collection rules (if you have one)
+    match /users/{userId} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null && request.auth.uid == userId;
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
+
