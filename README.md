@@ -9,7 +9,7 @@
 
 **A modern Android application for sharing books with your community**
 
-[Features](#-features) • [Problem Statement](#-real-world-problem-identification) • [Solution](#-proposed-solution) • [Installation](#-installation) • [Documentation](#-documentation)
+[Demo](#-app-demo) • [Features](#-features) • [Problem Statement](#-real-world-problem-identification) • [Solution](#-proposed-solution) • [Installation](#-installation)
 
 </div>
 
@@ -52,6 +52,29 @@
 - 🎨 Modern Material Design 3 UI
 - 📱 Responsive design supporting multiple screen sizes
 - 🔍 Advanced search and filtering capabilities
+
+---
+
+## 🎥 App Demo
+
+Watch a complete walkthrough of the ShareBook application:
+
+<div align="center">
+
+### [▶️ Watch Demo Video](demo.mp4)
+
+https://github.com/asfandalidal/ShareBookApp/blob/main/demo.mp4
+
+</div>
+
+**Video includes:**
+- User registration and authentication
+- Adding books with images
+- Searching and browsing books
+- Viewing book details
+- Contact integration (WhatsApp/Email)
+- Profile management
+- My Books functionality
 
 ---
 
